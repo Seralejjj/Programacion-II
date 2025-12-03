@@ -1,0 +1,77 @@
+{
+  "nombre": "Biblioteca Central UMSA",
+  "libros": [
+    {
+      "titulo": "Cien años de soledad",
+      "isbn": "123-456",
+      "stock": 0,
+      "paginas": [
+        {
+          "numero": 1,
+          "contenido": "Introducción al realismo mágico."
+        }
+      ]
+    }
+  ],
+  "autores": [
+    {
+      "nombre": "Gabriel García Márquez",
+      "nacionalidad": "Colombiano"
+    },
+    {
+      "nombre": "HOMERO",
+      "nacionalidad": "ODISEA"
+    },
+    {
+      "nombre": "HOMEIRO",
+      "nacionalidad": "ODISEA"
+    }
+  ],
+  "estudiantes": [
+    {
+      "codigo": "sergio",
+      "nombre": "14802397"
+    }
+  ],
+  "prestamos": [
+    {
+      "estudiante": {
+        "codigo": "2021001",
+        "nombre": "Sergio Pérez"
+      },
+      "libro": {
+        "titulo": "Cien años de soledad",
+        "isbn": "123-456",
+        "stock": 0,
+        "paginas": [
+          {
+            "numero": 1,
+            "contenido": "Introducción al realismo mágico."
+          }
+        ]
+      }
+    },
+    {
+      "estudiante": {
+        "codigo": "2021001",
+        "nombre": "Sergio Pérez"
+      },
+      "libro": {
+        "titulo": "Cien años de soledad",
+        "isbn": "123-456",
+        "stock": 0,
+        "paginas": [
+          {
+            "numero": 1,
+            "contenido": "Introducción al realismo mágico."
+          }
+        ]
+      }
+    }
+  ],
+  "horario": {
+    "dias": "Lunes a Viernes",
+    "horaApertura": "08:00",
+    "horaCierre": "18:00"
+  }
+}
